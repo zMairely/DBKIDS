@@ -1,0 +1,218 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3b5998; /* Cambia el color del banner a #3b5998 */
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: auto; /* Empuja todos los elementos a la izquierda */
+}
+
+.logo img {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    margin-top: -10px; /* Mueve el logo 3px hacia arriba */
+}
+
+/* Estilo del texto "DBKIDS" */
+.logo span {
+    font-size: 40px; /* Aumenta el tamaño de la fuente */
+    font-weight: bold; /* Hace que el texto sea más negrita */
+    display: inline-flex; /* Permite la alineación vertical */
+    align-items: flex-end; /* Alinea la parte inferior del texto con "Iniciar Sesión" */
+    margin-bottom: -10px; /* Ajusta la posición vertical hacia arriba */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.language img {
+    width: 90px;
+    height: 90px;
+    margin-left: 10px;
+}
+
+.settings {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.settings .menu-icon {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 3px 0;
+}
+/* Estilo para el banner de redes sociales */
+.social-media-banner {
+    background-color: #3b5998; /* Cambia el color del banner a #3b5998 */
+    padding: 20px; /* Reduce el espaciado interno para los iconos */
+    display: flex;
+    justify-content: flex-start; /* Coloca los iconos en la esquina superior izquierda */
+    align-items: center; /* Alinea verticalmente los iconos al centro */
+    margin-top: 10px; /* Ajusta el margen superior según sea necesario */
+}
+
+.social-media-links a {
+    margin-right: 10px; /* Agrega un margen entre los iconos */
+}
+
+/* Estilo para los iconos de redes sociales */
+.social-media-banner img {
+    width: 40px; /* Ajusta el ancho de los iconos según sea necesario */
+    height: 40px; /* Ajusta el alto de los iconos según sea necesario */
+}
+
+/* Estilo para el banner de Contacto y Ayuda */
+.contact-help-banner {
+    background-color: #3b5998;
+    color: white;
+    display: flex;
+    justify-content: space-between; /* Coloca los elementos al extremo derecho e izquierdo */
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+}
+
+.contact-info a {
+    margin-right: 20px;
+}
+
+.contact-info img {
+    width: 60px;
+    height: 60px;
+}
+
+.help-icon img {
+    width: 40px;
+    height: 40px;
+}
+/* Estilo para la presentación de imágenes */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.slideshow-container img {
+    display: none;
+    width: 100%;
+    height: auto;
+}
+
+/* Estilo para las imágenes con clases */
+.slideshow-container img:first-child {
+    display: block;
+}
+/* Estilos para los recuadros de Administrativos y Padres de Familia en una fila */
+.container {
+    display: flex;
+    justify-content: space-around; /* Distribuye los recuadros horizontalmente */
+    flex-wrap: wrap; /* Permite que los recuadros se ajusten a la pantalla si es necesario */
+    margin: 20px 0;
+}
+
+/* Estilos para los recuadros de Administrativos y Padres de Familia */
+.box {
+    width: 45%; /* El 45% del ancho del contenedor para tener dos recuadros en una fila */
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+/* Estilos para las imágenes cuadradas */
+.box img {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    display: block;
+}
+
+/* Estilos para el espacio de texto */
+.box h2 {
+    font-size: 24px;
+}
+
+.box p {
+    font-size: 16px;
+}
+ /* Estilo para el recuadro negro */
+ .black-box {
+    background-color: rgb(37, 36, 36);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    margin-bottom: 10px; /* Reducir el margen inferior */
+}
+
+/* Estilo para el formulario */
+form {
+    margin-bottom: 10px; /* Reducir el margen inferior */
+}
+
+/* Estilo para la imagen dentro del recuadro */
+.black-box img {
+    width: 100px; /* Ajusta el tamaño de la imagen según sea necesario */
+    height: auto; /* Esto mantiene la proporción de la imagen */
+}
+
+/* Estilo para los banners de Alianzas en una sola línea */
+.alliances-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3b5998;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.alliance-logo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+/* Estilo para el encabezado h1 en blanco */
+.alliance-heading {
+    color: white; /* Cambia el color del texto a blanco */
+}

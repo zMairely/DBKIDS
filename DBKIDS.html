@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Enlaza el archivo CSS -->
+    <title>DBKIDS</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="Imagenes/Sin título (1).png" alt="DBKIDS Logo">
+            <span>DBKIDS</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" class="nav-item-large">Registrarse</a></li>
+                <li><a href="#" class="nav-item-large">Iniciar Sesión</a></li>
+            </ul>
+        </nav>
+
+        <div class="language">
+            <img src="Imagenes/idioma-extranjero.png" alt="Idioma">
+        </div>
+        <div class="settings">
+            <div class="menu-icon">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </header>
+
+
+
+
+
+    <!-- Aquí va el contenido principal de tu página -->
+
+    <div class="slideshow-container">
+        <img src="Imagenes/Copia de BRANDING (1).png" alt="Imagen 2">
+        <img src="Imagenes/Copia de BRANDING (2).png" alt="Imagen 3">
+
+    </div>
+
+    <!-- funcionalidad -->
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            const slides = document.querySelectorAll(".slideshow-container img");
+
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+
+            slideIndex++;
+
+            if (slideIndex > slides.length) {
+                slideIndex = 1;
+            }
+
+            slides[slideIndex - 1].style.display = "block";
+            setTimeout(showSlides, 2000); // Cambia la imagen cada 2 segundos (2000 ms)
+        }
+    </script>
+
+
+
+
+
+
+
+
+    <!-- Contenedores para Administrativos y Padres -->
+    <div class="container">
+        <!-- Administrativos -->
+        <div class="box admin-box">
+            <img src="Imagenes/maestro.png" alt="Administrativos">
+            <h2> TUORIAL PERSONAL ESCOLAR</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <!-- Padres de Familia -->
+        <div class="box parents-box">
+            <img src="Imagenes/dia-del-padre.png" alt="Padres de Familia">
+            <h2>TUTORIAL PADRES DE FAMILIA</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+    </div>
+
+
+
+    <!-- Enlaces a CURP y NSS IMSS -->
+    <div class="links-container">
+        <h1>¿No sabes CURP o NSS?</h1>
+        <a href="https://seguriudad-enlineamxn.com/obtener-complemento-seguromxn/" target="_blank">Obtener CURP</a>
+        <a href="https://imss.gob.mx/tramites/imss02008" target="_blank">Consultar NSS IMSS</a>
+    </div>
+
+
+    <h1>Formulario de Mensajes</h1>
+    <form action="#" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" required><br><br>
+
+        <label for="phone">Teléfono:</label>
+        <input type="tel" id="phone" name="phone"><br><br>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+
+    <!-- Banners de Alianzas -->
+    
+
+    <div class="alliances-banner">
+
+        <h1 class="alliance-heading">ALIANZAS</h1>
+        
+        <div class="alliance-logo">
+            <img src="Imagenes/OIP.jpeg" alt="Alianza 1">
+        </div>
+        <div class="alliance-logo">
+            <img src="Imagenes/R.jpeg" alt="Alianza 2">
+        </div>
+        <div class="alliance-logo">
+            <img src="Imagenes/GOB.png" alt="Alianza 3">
+        </div>
+    </div>
+
+
+
+    <!-- Recuadro negro con imagen -->
+    <div class="black-box">
+        <p>Gracias por tu mensaje</p>
+        <P>BIENVENIDO A LA COMUNIDAD </P>
+
+
+        <!-- Video de YouTube -->
+        <iframe width="560" height="315"
+            src="https://www.youtube.com/watch?v=8oczejZx5TM&pp=ygUeaW5mcm9tYWNpb24gbWVkaWNhICBkZSBuacOxb3Mg"
+            frameborder="0" allowfullscreen></iframe>
+
+
+
+
+
+
+
+
+
+
+        <!-- Hipervínculos a Redes Sociales en el banner -->
+        <div class="social-media-banner">
+            <a href="https://www.facebook.com"><img src="Imagenes/facebook.png" alt="Facebook"></a>
+            <a href="https://www.twitter.com"><img src="Imagenes/gorjeo.png" alt="Twitter"></a>
+            <a href="https://www.youtube.com"><img src="Imagenes/youtube.png" alt="YouTube"></a>
+            <a href="https://wa.me/TUNUMERODEWHATSAPP"><img src="Imagenes/whatsapp.png" alt="WhatsApp"></a>
+        </div>
+
+
+
+
+
+
+
+        <div class="contact-help-banner">
+            <div class="contact-info">
+                <p>CONTACTO: <a href="mailto:dbkids@gmail.com">DBKIDSYOUX@gmail.com</a></p>
+            </div>
+            <div class="help-icon">
+                <img src="Imagenes/Sin título (10).png" alt="Ayuda">
+            </div>
+
+
+            <div class="contact-help-numbers">
+                <div class="contact-number">
+                    <p>CALL TOLL FREE ONLY IN MX +52 000000</p>
+                </div>
+                <div class="contact-number">
+                    <p>CALL TOLL FREE ONLY IN US +115 000000</p>
+                </div>
+            </div>
+        </div>
+
+
+</body>
+
+</html>
+
+
+
+<!-- Banner de Copyright -->
+<div class="copyright-banner">
+    <p>&copy; Copyright 2023 DBKIDS by YouX</p>
+    <p> Privacy Policy</p>
+
+
+
+</div>
